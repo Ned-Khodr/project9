@@ -4,11 +4,11 @@ import { Link } from "react-router-dom";
 import ROUTES from "../../app/routes";
 // import quiz selector
 import { selectQuizzes } from "./quizzesSlice";
-import { selectCards } from "../cards/cardsSlice";
+// import { selectCards } from "../cards/cardsSlice";
 
 export default function Quizzes() {
   const quizzes = useSelector(selectQuizzes); // replace this with a call to your selector to get all the quizzes in state
-  const cards = useSelector(selectCards)
+  // const cards = useSelector(selectCards)
   // console.log(quizzes)
   // console.log(cards)
   

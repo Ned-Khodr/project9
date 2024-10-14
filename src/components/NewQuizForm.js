@@ -5,7 +5,7 @@ import { v4 as uuidv4 } from "uuid";
 import ROUTES from "../app/routes";
 import { selectTopics } from "../features/topics/topicsSlice";
 import { addQuiz } from "../features/quizzes/quizzesSlice";
-import { selectQuizzes } from "../features/quizzes/quizzesSlice";
+// import { selectQuizzes } from "../features/quizzes/quizzesSlice";
 import { addCard } from "../features/cards/cardsSlice";
 // import selectors
 
@@ -16,7 +16,7 @@ export default function NewQuizForm() {
   const navigate = useNavigate();
   const topics = useSelector(selectTopics);  // Replace with topics 
   const dispatch = useDispatch();
-  const quizzes = useSelector(selectQuizzes)
+  // const quizzes = useSelector(selectQuizzes)
 
   const handleSubmit = (e) => {
     e.preventDefault();

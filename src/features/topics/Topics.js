@@ -23,7 +23,7 @@ export default function Topics() {
                <p>{quizLength(topic.quizIds)} Quizzes</p>
              </div>
            </div>
-         </Link>
+          </Link>
           </li>
         ))}
       </ul>
